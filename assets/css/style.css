@@ -189,7 +189,9 @@ body {
   letter-spacing: -3px;
 }
 
-.h2 { font-size: var(--fs-3); }
+.h2 { 
+  font-size: var(--fs-3);
+}
 
 .h3 {
   font-size: var(--fs-6);
@@ -198,7 +200,7 @@ body {
 
 :is(.h1, .h2, .h3, .card-price) .span {
   display: inline-block;
-  color: var(--skyblue);
+  color: var(--raisin-black-3);
 }
 
 .btn {
@@ -348,7 +350,7 @@ body {
 
 .header-bottom.active {
   position: fixed;
-  top: -85px;
+  top: -125px;
   animation: slideIn 0.5s var(--cubic-out) forwards;
 }
 
