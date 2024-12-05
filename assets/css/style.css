@@ -200,7 +200,12 @@ body {
 
 :is(.h1, .h2, .h3, .card-price) .span {
   display: inline-block;
-  color: var(--raisin-black-3);
+  color: var(--skyblue);
+  text-shadow: 
+          -4px -4px 0 #000,
+          4px -4px 0 #000,
+          -4px 4px 0 #000,
+          4px 4px 0 #000;
 }
 
 .btn {
